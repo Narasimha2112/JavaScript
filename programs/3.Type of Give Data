@@ -1,0 +1,13 @@
+// Check the datatype of 5 different variables.
+
+let name = "Jack"; //String
+let age = 25; //Number
+let isStudent = true; //Boolean
+let address; //Undefined
+let hobbies = ["reading", "gaming", "coding"]; //Object (Array) 
+
+document.writeln("The datatype of name is: " + typeof name + "<br>");
+document.writeln("The datatype of age is: " + typeof age + "<br>");
+document.writeln("The datatype of isStudent is: " + typeof isStudent + "<br>");
+document.writeln("The datatype of address is: " + typeof address + "<br>");
+document.writeln("The datatype of hobbies is: " + typeof hobbies + "<br>");
