@@ -1,0 +1,7 @@
+// Convert a string number "42" into a number and add 100.
+
+let strNum = "42";
+let num = Number(strNum);
+let result = num + 100;
+
+document.writeln("The result is : " + result);
