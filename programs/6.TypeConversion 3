@@ -1,0 +1,8 @@
+// Convert minutes into hours and minutes.
+
+let minutes = prompt("Enter time in minutes:");
+
+let hours = Math.floor(minutes / 60);
+let remainingMinutes = minutes % 60;
+
+document.writeln(`${minutes} minutes is equal to ${hours} hours and ${remainingMinutes} minutes.`);
