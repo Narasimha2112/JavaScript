@@ -1,0 +1,4 @@
+var name = prompt("Enter your name:");
+var age = prompt("Enter your age:");
+
+document.writeln("Hello " + name + ", Nice to meet you! and my age is " + age + ".");
