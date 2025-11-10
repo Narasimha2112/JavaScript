@@ -1,0 +1,6 @@
+// Convert Celsius to Fahrenheit.
+
+let Celsius = 25;
+let Fahrenheit = (Celsius * 9/5) + 32;
+
+document.writeln(Celsius + "°C is equal to " + Fahrenheit + "°F.");
